@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>That's What I Am</title>
+	<script type="text/javascript" src="scripts/modernizr-1.6.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/basic.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo1.gif" alt="That's What I Am">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="live.html">Experience</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<article>
+		<h1>联系交流</h1>
+		<form method="post" action="submit.html">
+			<fieldset>
+				<legend>留下你的信息</legend>
+				<p>
+					<label for="name">姓名：</label>
+					<input type="text" name="name" id="name" placeholder="name" required="required" />
+				</p>
+				<p>
+					<label for="email">邮箱：</label>
+					<input type="email" name="email" id="email" placeholder="email" required="required" />
+				</p>
+				<p>
+					<label for="message">留言：</label>
+					<textarea cols="45" rows="7" id="message" name="message" placeholder="你有什么想说的" required="required" /></textarea>
+				</p>
+				<input type="submit" name="submit" value="发送" />
+			</fieldset>
+		</form>
+	</article>
+	<script type="text/javascript" src="scripts/global.js"></script>
+</body>
+</html>
